@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.deal {
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 7px;
+    padding-top: 2px;
+    border-bottom: 1px solid #d7d7d8;
+}
+.container{
+    position:sticky;
+    top:0;
+    z-index:1;
+    background-color: white;
+}
+nav{
+    display:flex;
+    align-items: center;
+    position:sticky;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width:25rem;
+}
+
+.brand{
+    flex-basis:727.8px;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif,'Tilt Prism', cursive;
+    font-size: 50px;
+    letter-spacing: .18em;
+    flex-shrink: 1;
+}
+
+.w{
+    margin-left: 23px;
+}
+
+.sb{
+    margin-right: 27px;
+}
+
+.selections{
+    display: flex;
+    height:51.6px;
+    flex-basis:366.7px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    flex-shrink: 1.5;
+}
+
+
+
+.link {
+    display: flex;
+    list-style: none;
+    flex-basis: content;
+    align-items: center;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.header {
+    display:block;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.men:hover{
+    transform:scale(.94) rotate(.001deg);
+    transition:.5s;
+    opacity: 0.9;
+}
+
+.women:hover {
+    transform:scale(.94) rotate(.001deg);
+    transition:.5s ;
+    opacity: 0.9;
+}
+
+/* .women:hover, .shop .underline{
+    width: 48px;
+    max-width:50%;
+} */
+
+/* span.underline{
+    bottom:-.2em;
+    height:3px;
+}
+.shop:after, span.underline{
+    content:"";
+    background-color: white;
+    position:absolute;
+    left: 50%;
+    transform:translate(-50%);
+    transition:all .3s ease-out;
+} */
+/* .women{
+    width:max-content;
+    position:relative;
+    cursor: pointer;
+    margin:100px auto;
+}
+
+.women::after,.shop{
+    content:"";
+    margin-bottom:7px;
+    position:absolute;
+    bottom:-5px;
+    height:2px;
+    width: 100%;
+    left:0;
+    background-color: black;
+    transition:.3s;
+    transition-timing-function: ease-in-out;
+    transform:scaleX(0);
+}
+
+.women:hover::after{
+    transform:scaleX(1);
+} */
+
+.link span:hover{
+    padding-bottom: 2.5px;
+    border-bottom: 1px solid black;
+}
+
+.men {
+    background-image: url(men2.jpg);
+    background-size: cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 65vh;
+}
+
+.women {
+    background-image: url(w3.jpeg);
+    background-size:cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 65vh;
+}
+
+.tag{
+    padding:5% 10% 5%;
+    display:flex;
+    flex-direction: column;
+}
+
+.shop{
+    border-radius:.1em;
+    padding-bottom:.5em;
+}
+
+.input{
+    display:flex;
+    flex-direction: column;
+}
+
+.new{
+    display:flex;
+    justify-content: inline;
+    width:100%;
+    height:65vh;
+    margin:25px 0px;
+    background-color: black;
+}
+
+.img1{
+    background-image: url(fashion.jpeg);
+    background-size:cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    width: 400.8px;
+    height: 65vh;
+}
+
+.data{
+    width:620px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10% 2% 5%;
+}
+
+.img2{
+    background-image: url(m4.jpeg);
+    background-size:cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 65vh;
+}
+
+.first{
+    font-family: 'Playfair Display', serif;
+    
+    font-size: 35px;
+    line-height: 1.5em;
+    font-weight: 600;
+}
+
+.second{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 200;
+}
+
+.third{
+    font-family: 'Playfair Display', serif;
+    color: black;
+    background-color: white;
+    padding: .7em 1.2em ;
+    font-size:1em;
+    font-weight: 600;
+    border:none;
+}
+
+.third:hover{
+    box-shadow:0 .5em .5em -.4em #d7d7d8;
+    transform: translateY(-.25em);
+    cursor:pointer;
+}
+
+.new1{
+    display:flex;
+    justify-content: inline;
+    width:100%;
+    height:65vh;
+    margin:25px 0px;
+    background-image: url(Wallpaper.jpeg);
+    background-size:cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+}
+
+.image{
+    background-image:url(s6.jpeg);
+    background-size:cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    width: 32%;
+    height: 65vh;
+}
+
+.data1{
+    width:1100px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:8% 2% 5%;
+}
+
+.offer{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    line-height: 1em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.new1 button{
+    background-color: black;
+    color:white;
+}
+
+footer{
+    background-color: #DBDFEA;
+   display: flex;
+   flex-direction: column;
+}
+.mail{
+    width: 20%;
+    height: 5vh;
+    margin: 25px auto;
+    font-size: large;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    color: black;
+}
+.mail::placeholder{
+    color:#616D7E ;
+}
+.subscribe{
+    width: 20%;
+    height:5vh;
+    margin: 7px auto;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    color:  rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+.subscribe:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.anchor-tags{
+    display: flex;
+    justify-content: center;
+}
+.anchor-names{
+    margin: 25px 30px;
+    font-size: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+hr{
+    background-color: rgb(0, 0, 0);
+    height: 5px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons i{
+    padding: 20px 25px;
+    font-size: 25px;
+}
+.last-lines{
+    display: flex;
+    justify-content: center;
+}
+.last-lines p{
+    padding: 6px 25px;
+    font-size: 12px;
+    
+}
+
+@media(max-width:1274.4px){
+    span.s{
+        display: none;
+    }
+    span.si{
+        display: none;
+    }
+    span.sb{
+        display: none;
+    }
+
+    div.brand{
+        flex-basis:600px;
+    }
+    .selections{
+        flex-basis:170px;
+        justify-content: space-between;
+    }
+
+    .navbar{
+        flex-basis:394pxpx;
+    }
+    .symbol3{
+        margin-right: 20px;
+    }
+}
